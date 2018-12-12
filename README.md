@@ -5,7 +5,7 @@ git 教学文章： https://gitbook.tw/
     git clone xxx(远程仓库名)            ---克隆项目  
     git remote add origin xxx           ---本地仓库连接到远程  
 
-配置账号密码：    
+配置账号密码:     
     git config --local user.name xxx  
     git config --local user.email 'xxx@xx.com'  
 
@@ -31,11 +31,13 @@ git 教学文章： https://gitbook.tw/
     刷新远程分支： git remote update origin -p  
 
 日志相关：  
-    查看提交日志： git log  
+    查看提交日志： git log                  (q: 快速退出)
     查看简化日期: git log --oneline  
     查看分支提交树： git log --graph  
     查看提交日志最新 x 次： git log -number  
-    查看log差异： git log -p -number  
+    查看log差异： git log -p -number  .
+    查看提交明细： git show
+    查看指定commit 修改：git show xxx(commit号)
 
     查看本地提交状态： git status  
     查看简化版状态： git status -s   
