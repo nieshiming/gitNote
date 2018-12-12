@@ -180,3 +180,4 @@ git rebase 基于同一分支有修改有冲突
 nie1
 nie2
 nie3
+nie4
