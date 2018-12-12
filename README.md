@@ -177,3 +177,15 @@ git rebase 基于同一分支有修改有冲突
     git rebase origin/releasa1.3  
     git push origin release1.3  
 
+fast forward： 分支间快速推进； A分支没有commit , B分支是基于A 分支切出来的分支， 并有commit   
+               执行 A merge B ;        => A 分支快速合并B的commit， 不会产生新的commit   
+
+三方合并：A 分支上切分支B， A B各有新的commit, A merge B 会形成新的commit 来链接2个commit  
+
+git rebase原理： 条件：A 分支上切分支B， A B各有新的commit  
+                    1、A rebase B,   A将除去共有祖先上的commit 全部以B为基底嫁接到分支B上去   => 这样A分全部B分支commit为基点，嫁接自身新增的commit   
+                    2、回到B分支，直接merge A 分支，执行快速推荐  
+
+参考文章：   
+    1、https://www.jianshu.com/p/ca76937b174f  
+
