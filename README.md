@@ -1,6 +1,13 @@
 git 教学文章： https://gitbook.tw/  
               https://backlog.com/git-tutorial/tw/stepup/stepup2_8.html  
 
+git 提交规范： 
+    1、https://segmentfault.com/a/1190000009048911   
+    2、https://github.com/angular/angular/blob/master/CONTRIBUTING.md
+    3、https://github.com/angular/angular-cli/commits/master
+    <type>(作用域): 描述
+    注意：作用域可精确到model，interface, service，view ，*以及具体到那个文件等等
+
 初始化连接git相关： 
     git clone xxx(远程仓库名)            ---克隆项目  
     git remote add origin xxx           ---本地仓库连接到远程  
@@ -180,5 +187,20 @@ git rebase原理： 条件：A 分支上切分支B， A B各有新的commit
 参考文章：   
     1、https://www.jianshu.com/p/ca76937b174f  
 
-    标签相关：
+
+
+tag标签相关：
+tag相关：   
+    查看tag: git tag    
+    打tag:      
+        1、切换目标分支： git tag xxx           
+        2、针对同一个commit号，可以打多个tag   
+    删除本地tag: git tag -d xxx      
+    针对某个commit号打tag  git tag nie-t-4 cdd9b49      
+    查看某次tag详细信息: git show xxx   
+    推送tag到远程： git push origin xxx 
+    推送全部tag到远程:  git push origin --tags  
+    删除远程tag：   
+        1、删除本地tag: git tag -d xxx  
+        2、更新至远程： git push origin :refs/tags/xxx  
 
