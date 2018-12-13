@@ -23,6 +23,7 @@ git 提交规范：
     创建本地分支: git branch dev/nsm  
     删除本地分支： git branch -D dev/nsm  
     切换到本地分支： git checkout dev/nsm  
+    切换上一个分支： git checkout - 
     创建并切换到改分支： git checkout -b xxx  
     查看本地分支： git branch  
     查看远程分支： git branch -r  
