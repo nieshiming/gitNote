@@ -86,17 +86,14 @@ commit 相关：
     加入到缓存区后 git add .  =>    撤销暂存区更新： git reset HEAD fileName    => 然后git checkout  
 
     回退本地仓库：  
-        解决：    
-            1、回退版本： git reset --hard head~number  
-            2、选中任意版本： git reset --hard xxxx(版本号eg: 8e8fbe8 )    
-            注意： 这里仅仅回退的本地仓库的  
-        强制推送远程仓库  
-                1、选中任意版本： git reset --hard xxxx(版本号eg: 8e8fbe8 )    
-                2、git push -f origin xx(远程仓库名)        强制push到远程仓库  
+        回滚有三种方式
+        1、git reset --hard xxx         本地仓库的暂存区和工作区都将回滚到指定commit号(一般不建议使用)   
+        2、git reset --soft xxx         本地仓库回滚到指定commit号，暂存区和工作区文件状态不会有任何变化    
+        3、git reset --mixed xxx        本地仓库回滚到指定commit号，会重置暂存区，同时工作区的文件会处理未被跟踪状态    
+        强制推送远程仓库    
+            1、git push -f origin xx(远程仓库名)        强制push到远程仓库  
+            2、 git reflog                             获取全部版本号          
 
-        git reflog              获取全部版本号  
-
-    
     回退远程仓库：  
         git reset --hard origin/master   强制远程master 覆盖本地master  
 
