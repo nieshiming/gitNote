@@ -92,12 +92,10 @@ commit 相关：
     回退远程仓库：  
         git reset --hard origin/master   强制远程master 覆盖本地master  
 
-
 远程更新本地仓库：  
     git checkout xxx  
     git fetch origin xxx   更新远程仓库同步到本地（不会merge）  
     git merge origin/xxx   本地仓库merge远程仓库，本地commit 同步  
-
 
 删除文件：  
     commit后恢复文件=》删除文件》恢复文件 || add.  
@@ -105,15 +103,10 @@ commit 相关：
     查看工作区要被删除的文件 git clean -n  
     删除工作区文件： git clean -f  
 
-版本回退：  
-
-
-
 远程相关  
     git remote          查看远程信息  
     git remote -v       查看远程库详细信息  
     
-
 /**************************************/  
 工作区： 就是电脑上看到的目录，日常所建的目录都是属于工作区的范畴  
 版本库： 工作区有一个隐藏目录.git, 这个不属于工作区，这是版本库，版本库存在了很多东西，其他最重要的  
@@ -140,7 +133,6 @@ rebase 实例： {
     git merge development  
 }  
 
-
 git rebase 原理：  
 基于远程 origin/nsm  拉出来一个nsm本地分支：  
 对应文章： https://www.cnblogs.com/kevingrace/p/5896706.html  
@@ -151,7 +143,6 @@ git rebase 原理：
     git fetch origin nsm      
     git rebase  origin/nie  以远程复位基底   
     git push origin nsm  
-
 
 git rebase 基于同一分支有修改有冲突  
 条件：   
@@ -188,4 +179,6 @@ git rebase原理： 条件：A 分支上切分支B， A B各有新的commit
 
 参考文章：   
     1、https://www.jianshu.com/p/ca76937b174f  
+
+    标签相关：
 
