@@ -31,7 +31,8 @@ git 提交规范：
     推送本地分支到远程： git push origin dev/nsm  
     删除远程git 分支： git push origin -d dev/nsm  or  git push origin :dev/nsm  
     合并分支: git merge xxx  ???  
-    更新远程分支 git fetch origin  
+    更新关联远程分支： git fetch origin  
+    刷新远程分支列表： git remote update origin -p  
     基于远程分支新建一个本地分支： git checkout -b xxx origin/xxxx  
 
 分支操作：   
