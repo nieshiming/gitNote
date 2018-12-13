@@ -2,11 +2,11 @@ git 教学文章： https://gitbook.tw/
               https://backlog.com/git-tutorial/tw/stepup/stepup2_8.html  
 
 git 提交规范： 
-    1、https://segmentfault.com/a/1190000009048911   
-    2、https://github.com/angular/angular/blob/master/CONTRIBUTING.md
-    3、https://github.com/angular/angular-cli/commits/master
-    <type>(作用域): 描述
-    注意：作用域可精确到model，interface, service，view ，*以及具体到那个文件等等
+    1、https://segmentfault.com/a/1190000009048911      
+    2、https://github.com/angular/angular/blob/master/CONTRIBUTING.md   
+    3、https://github.com/angular/angular-cli/commits/master    
+    <type>(作用域): 描述    
+    注意：作用域可精确到model，interface, service，view ，*以及具体到那个文件等等   
 
 初始化连接git相关： 
     git clone xxx(远程仓库名)            ---克隆项目  
