@@ -113,7 +113,7 @@ commit 相关：
     git remote          查看远程信息  
     git remote -v       查看远程库详细信息  
     github重命名远程仓库:   
-        1、github上 setting => 修改库名称
+        1、github上 setting => 修改库名称   
         2、本地git项目上有以下操作  
             @ git remote rm origin  
             @ git remote add origin git@github.com:nieshiming/xxx.git   
