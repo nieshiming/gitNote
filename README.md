@@ -112,6 +112,11 @@ commit 相关：
 远程相关  
     git remote          查看远程信息  
     git remote -v       查看远程库详细信息  
+    github重命名远程仓库:   
+        1、github上 setting => 修改库名称
+        2、本地git项目上有以下操作  
+            @ git remote rm origin  
+            @ git remote add origin git@github.com:nieshiming/xxx.git   
     
 /**************************************/  
 工作区： 就是电脑上看到的目录，日常所建的目录都是属于工作区的范畴  
