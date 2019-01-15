@@ -188,6 +188,12 @@ git rebase原理： 条件：A 分支上切分支B， A B各有新的commit
                     1、A rebase B,   A将除去共有祖先上的commit 全部以B为基底嫁接到分支B上去   => 这样A分全部B分支commit为基点，嫁接自身新增的commit   
                     2、回到B分支，直接merge A 分支，执行快速推荐  
 
+Rebase - 使用 Interactive 模式來精簡 commit 紀錄    
+1、基于master分支开了一个dev分支, 同时master 、 dev 分支都有commit  
+2、切换dev分支 git rebase -i master 
+3、确认无误后, 输入: wq 退出    
+4、切换master分支, 执行git merge dev    
+
 参考文章：   
     1、https://www.jianshu.com/p/ca76937b174f  
 
