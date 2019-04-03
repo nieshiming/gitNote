@@ -5,7 +5,11 @@
 ## git 提交规范
 1、[https://segmentfault.com/a/1190000009048911](https://segmentfault.com/a/1190000009048911)   
 2、[https://github.com/angular/angular/blob/master/CONTRIBUTING.md](https://github.com/angular/angular/blob/master/CONTRIBUTING.md)  
-3、[https://github.com/angular/angular-cli/commits/master](https://github.com/angular/angular-cli/commits/master)        
+3、[https://github.com/angular/angular-cli/commits/master](https://github.com/angular/angular-cli/commits/master)      
+
+## git 分支管理规范
+1、参考文章： [https://cloud.tencent.com/developer/article/1110910]https://cloud.tencent.com/developer/article/1110910  
+
 ```
     <type>(作用域): 描述    
     注意：作用域可精确到model，interface, service，view ，*以及具体到那个文件等等  
