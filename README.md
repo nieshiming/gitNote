@@ -8,7 +8,7 @@
 3、[https://github.com/angular/angular-cli/commits/master](https://github.com/angular/angular-cli/commits/master)      
 
 ## git 分支管理规范
-1、参考文章： [https://cloud.tencent.com/developer/article/1110910]https://cloud.tencent.com/developer/article/1110910  
+1、参考文章： [https://cloud.tencent.com/developer/article/1110910](https://cloud.tencent.com/developer/article/1110910)
 
 ```
     <type>(作用域): 描述    
