@@ -83,7 +83,19 @@
     实际应用中，当完成一次提交之后，可能会发现此次提交有些文件需要修改，当然我们可以在下一次提交中修改此文件  
         解决思路：   
         git add .  
-        git commit --amend -m 'new remark'        2次提交合在一起，并且只有共用新的提交备注  
+        git commit --amend -m 'new remark'        2次提交合在一起，并且只有共用新的提交备注 
+
+## git cherry-pick
+    场景： cherry-pick和它名字一样，挑选一个我们需要的commit进行操作, 它可以用于将其他分支的commit移植到当前分支。
+    步骤：
+- A 分支有部分新的commit, 切换B分支
+- (B分支) git cherry-pick xxx xxxx  xxxxx
+
+
+### cherry-pick出现冲突情况：  （总体跟rebase操作类似）
+1、git status 查看冲突文件 => 手动解决冲突 => git add .        
+2、git cherry-pick --continue      
+3、放弃cherry-pick => git cherry-pick --abort
 
 
 ## 提交代码代码相关
