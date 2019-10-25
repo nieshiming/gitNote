@@ -122,7 +122,7 @@
 ## 文件回退
 
 ```
-
+    撤回所有文件更改： git checkout .
     修改文件未 git add., 那么直接 git checkout 文件名
     加入到缓存区后 git add .  =>    撤销暂存区更新： git reset HEAD fileName    => 然后git checkout
 
