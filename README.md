@@ -282,3 +282,19 @@ tag相关：
         1、删除本地tag: git tag -d xxx
         2、更新至远程： git push origin :refs/tags/xxx
 ```
+
+### stash (存储相关)
+
+描述： git stash 命令的作用就是将目前还不想提交的但是已经修改的内容进行保存至堆栈中，后续可以在某个分支上恢复出堆栈中的内容(不是当前分支上的 stash 也可以应用)
+
+```
+  git stash 保存当前缓存
+  git stash list 查看缓存列表
+  git stash apply 应用最近的一次缓存
+  git stash apply stash@{x} 应用指定的缓存
+
+  git stash show -p 查看缓存更改明细
+  git stash pop 应用之前保存的缓存，并且在缓存栈中删掉
+  git stash drop stash@{x} 删除指定缓存
+  git stash clear 清空缓存栈
+```
