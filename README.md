@@ -294,7 +294,8 @@ tag相关：
   git stash apply stash@{x} 应用指定的缓存
 
   git stash show -p 查看缓存更改明细
-  git stash pop 应用之前保存的缓存，并且在缓存栈中删掉
+  git stash pop 应用之前最近一次保存的缓存，并且在缓存栈中删掉
+                如果应用并删除指定缓存可以： git stash pop stash@{x}
   git stash drop stash@{x} 删除指定缓存
   git stash clear 清空缓存栈
 ```
