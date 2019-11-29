@@ -309,5 +309,6 @@ tag相关：
 3、cmder配置git 别名
    - https://github.com/cmderdev/cmder/issues/421
    - 进入到  E:\ruanjian\cmder\config\user_aliases.cmd配置别名
+             https://www.jianshu.com/p/979db1a96f6d
 4、重启vscode
 ```
