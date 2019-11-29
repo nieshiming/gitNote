@@ -1,8 +1,0 @@
-alias gc='git clone'
-alias gst='git status'
-alias ga='git add'
-alias gcm='git commit -m'
-alias gp='git push'
-alias gba='git branch -a'
-alias gbr='git branch --remote'
-alias gb='git branch'
