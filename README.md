@@ -299,3 +299,15 @@ tag相关：
   git stash drop stash@{x} 删除指定缓存
   git stash clear 清空缓存栈
 ```
+
+### git 配置别名
+
+```
+1、安装cmder
+2、vscode配置cmder终端
+   - https://github.com/Microsoft/vscode/issues/12006
+3、cmder配置git 别名
+   - https://github.com/cmderdev/cmder/issues/421
+   - 进入到  E:\ruanjian\cmder\config\user_aliases.cmd配置别名
+4、重启vscode
+```
