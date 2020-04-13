@@ -2,6 +2,7 @@
 
 - [https://gitbook.tw/](https://gitbook.tw/)
 - [https://backlog.com/git-tutorial/tw/stepup/stepup2_8.html](https://backlog.com/git-tutorial/tw/stepup/stepup2_8.html)
+- [readMe添加emoji](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ## git 提交规范
 
